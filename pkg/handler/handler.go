@@ -29,9 +29,9 @@ func (h *Handler) InitRoutes() *gin.Engine {
 			{
 				items.POST("/")
 				items.GET("/")
-				items.GET("/:id")
-				items.PUT("/:id")
-				items.DELETE("/:id ")
+				items.GET("/:item_id")
+				items.PUT("/:item_id")
+				items.DELETE("/:item_id")
 			}
 		}
 
